@@ -8,9 +8,9 @@ Build a machine learning model that predicts which Tweets are about real disaste
 
 To train the model, we have access to a dataset of 6,471 tweets that were already classified (0 = fake news, 1 = real news).  
 
-### 🚀 Progress of the solution
+### 🚀 Progress of the project
 
-**Week 1**
+#### Week 1
 
 - Import the original dataset
 - Train the model on the original dataset without any modification to set the base benchmark accuracy (basic model)
@@ -19,6 +19,14 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 - After removing the duplicates: 3676 fake news & 2711 real news
 - Preproceesing the text by removing any useless data
 - Predictions
+
+#### Week 2
+
+To be added later 😁
+
+#### Week 3
+
+To be added later 😁
 
 ### 🥇 Results
 
