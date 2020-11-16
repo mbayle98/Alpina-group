@@ -10,7 +10,7 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 
 ### 🚀 Progress of the solution
 
-Week 1
+**Week 1**
 
 - Import the original dataset
 - Train the model on the original dataset without any modification to set the base benchmark accuracy (basic model)
