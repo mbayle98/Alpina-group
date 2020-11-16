@@ -15,7 +15,7 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 - Calculate the base rate on the original dataset
 - Distribution of the data: 3701 fake news & 2770 real news
 - After removing the duplicates: 3676 fake news & 2711 real news
-- Preproceesing the text by removing any usless data
+- Preproceesing the text by removing any useless data
 - Predictions
 
 ### 🥇 Results
