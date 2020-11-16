@@ -21,3 +21,7 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 ### 🥇 Results
 
 - 1st submission (basic model): 0.811
+
+### 📹 Video
+
+To be added later 😁
