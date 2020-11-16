@@ -11,13 +11,13 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 ### 🚀 Solution
 
 - Import the original dataset
-- Train the model on the original dataset without any modification to set the base benchmark accuracy
+- Train the model on the original dataset without any modification to set the base benchmark accuracy (basic model)
 - Calculate the base rate on the original dataset
-- Distribution of the data: 3701 fake new & 2770 real news
-- After removing the duplicates: 3676 fake new & 2711 real news
-- Preproceesing the text by removing any useless data
-- Prediction
+- Distribution of the data: 3701 fake news & 2770 real news
+- After removing the duplicates: 3676 fake news & 2711 real news
+- Preproceesing the text by removing any usless data
+- Predictions
 
 ### 🥇 Results
 
-- 1st submission: 0.811
+- 1st submission (basic model): 0.811
