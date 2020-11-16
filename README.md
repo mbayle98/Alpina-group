@@ -42,7 +42,7 @@ It's still too early 🔮
 
 ### 🥇 Results
 
-- 1st submission (basic model): 0.811
+- 1<sup>st</sup> submission (basic model): 0.811
 
 ### 📹 Video
 
