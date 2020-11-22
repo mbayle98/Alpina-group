@@ -36,7 +36,10 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 
 #### Week 2
 
-It's still too early 🔮
+📊 **EDA**
+
+- Plot the Top 10 keywords (entire training set, distinction between fake/real news tweets)
+- Plot the Top 10 locations (entire training set, distinction between fake/real news tweets)
 
 #### Week 3
 
