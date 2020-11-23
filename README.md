@@ -38,6 +38,7 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 
 💻 **Github**
 
+- WIP: Text processing function exported to another notebook 
 - Sych repo 
 - README updated
 
@@ -45,6 +46,7 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 
 - Plot the Top 10 keywords (entire training set, distinction between fake/real news tweets)
 - Plot the Top 10 locations (entire training set, distinction between fake/real news tweets)
+- Plot the most used words to improve the text preprocessing
 
 #### Week 3
 
