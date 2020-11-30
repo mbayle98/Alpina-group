@@ -49,11 +49,6 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 
 #### Week 3
 
-💻 **Github**
-
-- Sych repo 
-- README updated
-
 - EDA completed
 - WIP: cleaning the features
 - WIP: testing different classifers
