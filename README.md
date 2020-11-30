@@ -52,6 +52,7 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 - EDA completed
 - WIP: cleaning the features
 - WIP: testing different classifers
+- TODO: implement cross validation
 
 ### 🥇 Results
 
