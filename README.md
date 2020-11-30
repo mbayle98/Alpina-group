@@ -45,8 +45,7 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 
 - Plot the Top 50 keywords (entire training set, distinction between fake/real news tweets)
 - Plot the Top 50 locations (entire training set, distinction between fake/real news tweets)
-- Plot the most used words to improve the text preprocessing
-
+- Tracez les mots et types de mots les plus communs dans les tweets
 #### Week 3
 
 - EDA completed
