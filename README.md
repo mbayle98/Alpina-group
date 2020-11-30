@@ -38,7 +38,6 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 
 💻 **Github**
 
-- WIP: Text processing function exported to another notebook 
 - Sych repo 
 - README updated
 
@@ -50,7 +49,14 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 
 #### Week 3
 
-It's still too early 🔮
+💻 **Github**
+
+- Sych repo 
+- README updated
+
+- EDA completed
+- WIP: cleaning the features
+- WIP: testing different classifers
 
 ### 🥇 Results
 
