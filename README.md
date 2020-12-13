@@ -11,6 +11,10 @@ The goal of this project is to build a machine learning model that predicts whic
 
 To train the model, we have access to a dataset of 6,471 Tweets that were already classified (0 = fake news, 1 = real news). The aim is to use the different techniques seen in class to perform the EDA and the data cleaning in a first step before testing different classifiers to determine which one provides the best accuracy.  
 
+### ⚙️ Models & Parameters
+
+TO BE ADDED 
+
 ### 🚀 Progress of the project
 
 #### Week 1
