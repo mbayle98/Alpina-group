@@ -9,7 +9,7 @@ Twitter has become a popular social network for many users. However, it is also 
 
 The goal of this project is to build a machine learning model that predicts which Tweets are about real disasters and which one’s aren’t.  
 
-To train the model, we have access to a dataset of 6,471 tweets that were already classified (0 = fake news, 1 = real news).  
+To train the model, we have access to a dataset of 6,471 Tweets that were already classified (0 = fake news, 1 = real news). The aim is to use the different techniques seen in class to perform the EDA and the data cleaning in a first step before testing different classifiers to determine which one provides the best accuracy.  
 
 ### 🚀 Progress of the project
 
@@ -19,7 +19,7 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 
 - Repo initialisation
 - Setting up the repo structure
-- Git push ressources: training_set, test_set
+- Ressources uploaded: training_set, test_set
 - Draft README
 
 💾 **Data**
@@ -31,9 +31,9 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 
 🧹 **Text preprocessing**
 
-- Size of the database after removing the duplicates: 3,676 fake news & 2,711 real news
-- Preproceesing the text to remove irrevelant information
-- Run some predictions
+- Word cloud of the dataset to determine the type of words contained in the Tweets
+- Preproceesing the text to remove irrevelant information 
+- Run an elementar model
 
 #### Week 2
 
@@ -44,19 +44,26 @@ To train the model, we have access to a dataset of 6,471 tweets that were alread
 
 📊 **EDA**
 
-- Plot the Top 50 keywords (entire training set, distinction between fake/real news tweets)
-- Plot the Top 50 locations (entire training set, distinction between fake/real news tweets)
-- Tracez les mots et types de mots les plus communs dans les tweets
+- Plot the Top 50 keywords (entire training set, distinction between fake/real news Tweets)
+- Plot the Top 50 locations (entire training set, distinction between fake/real news Tweets)
+- Plot the most common words and word types in Tweets
+
 #### Week 3
 
 - EDA completed
 - WIP: cleaning the features
 - WIP: testing different classifers
-- TODO: implement cross validation
+- TODO: cross validation
+
+#### Week 4
+
+- Different classifiers tested: Logistic regression, kNNeighbours, Decision Tree, Random Forest
+- Hyper-parameter optimization with GridSearch
 
 ### 🥇 Results
 
 - 1<sup>st</sup> submission (basic model): 0.811
+- To complete
 
 ### 📹 Video
 
