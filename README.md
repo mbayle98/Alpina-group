@@ -35,7 +35,7 @@ From the 10 subsmissions on AIcrowd, here is the top 3 in term of accuracy:
 
 ### ⚙️ Models & Parameters
 
-Note: GridSearch(cv = 5) used for all optimizations
+Note: ```GridSearch(cv = 5)``` used for all optimizations
 
 | **Model**                                                | **Parameters**                                                                               |**Internal Accuracy**|
 |----------------------------------------------------------|-------------------------------------------------------------------------------------------------------|------------|
