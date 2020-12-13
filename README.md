@@ -24,7 +24,7 @@ To train the model, we have access to a dataset of 6,471 Tweets that were alread
 | X = lexical categories (std)                             | ```C = 2```                                                                                           | 0,676      |
 | X = lexical categories (std + PCA)                       |                                                                                                       | 0,676      |
 | X = keywords                                             | ```C = 1```                                                                                           | 0.59       |
-| Combined features                                        |                                                                                                       |            |
+| *Combined features*                                      |                                                                                                       |            |
 | X = lexical + location                                   |                                                                                                       | 0,662      |
 | X = lexical + keyword                                    |                                                                                                       | 0,654      |
 | X = location + keyword                                   |                                                                                                       | 0,579      |
