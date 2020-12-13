@@ -16,11 +16,21 @@ To train the model, we have access to a dataset of 6,471 Tweets that were alread
 - **Classifier**: Logisitic regression
 - **Parameters**: ```C = 3.6, ngram_range = (1,3), norm = 'l1'```
 - **Internal accuracy**: 0.823
-- **AICrowd accuracy**: 0.818
+- **AIcrowd accuracy**: 0.818
 
 By analysing the confusion matrix, it turned out that the model was very good at detecting the real news and the optimisation has certainly impacted this prediction of the real news even more.
 
 However, this model is bad at detecting fakes news like most of the other models tested. This means that there are things inherent and unique to fakes news that were not captured by these models. One solution would be to use additional features (feature engineering: lexical categories) that would allow to capture the characteristics of the fakes news.
+
+### 🥇 Results
+
+10 subsmissions on AIcrowd:
+- 1<sup>st</sup> submission (basic model): 0.57
+- 2<sup>nd</sup> submission (Logistic regression model): 0.811
+- 3<sup>rd</sup> submission (Logistic regression optimized model): 0.816
+- 4<sup>th</sup> submission (Logistic regression optimized numbers removal model): 0.818
+
+![Graphic AIcrowd](Documents/AICROWD.PNG)
 
 ### ⚙️ Models & Parameters
 
@@ -101,19 +111,6 @@ Note: GridSearch(cv = 5) used for all optimizations
 
 - Different classifiers tested: Logistic regression, kNNeighbours, Decision Tree, Random Forest
 - Hyper-parameter optimization with GridSearch
-
-### 🥇 Results
-
-10 subsmissions on AIcrowd:
-- 1<sup>st</sup> submission (basic model): 0.57
-- 2<sup>nd</sup> submission (Logistic regression model): 0.811
-- 3<sup>rd</sup> submission (Logistic regression optimized model): 0.816
-- 4<sup>th</sup> submission (Logistic regression optimized numbers removal model): 0.818
-
-
-
-
-![Graphic AIcrowd](Documents/AICROWD.PNG)
 
 ### 📹 Video
 
