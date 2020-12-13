@@ -22,13 +22,14 @@ By analysing the confusion matrix, it turned out that the model was very good at
 
 However, this model is bad at detecting fakes news like most of the other models tested. This means that there are things inherent and unique to fakes news that were not captured by these models. One solution would be to use additional features (feature engineering: lexical categories) that would allow to capture the characteristics of the fakes news.
 
-### 🥇 Results
+### 🥇 Result
 
-10 subsmissions on AIcrowd:
-- 1<sup>st</sup> submission (basic model): 0.57
-- 2<sup>nd</sup> submission (Logistic regression model): 0.811
-- 3<sup>rd</sup> submission (Logistic regression optimized model): 0.816
-- 4<sup>th</sup> submission (Logistic regression optimized numbers removal model): 0.818
+![Leaderboard AIcrowd](Documents/Alpina_ranking.PNG)
+
+From the 10 subsmissions on AIcrowd, here is the top 3 in term of accuracy:
+- 1<sup>st</sup> submission (Logistic regression optimized numbers removal model): 0.818
+- 2<sup>nd</sup> submission (Logistic regression optimized model): 0.816
+- 3<sup>rd</sup> submission (Logistic regression model): 0.811
 
 ![Graphic AIcrowd](Documents/AICROWD.PNG)
 
