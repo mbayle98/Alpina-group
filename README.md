@@ -67,7 +67,7 @@ To train the model, we have access to a dataset of 6,471 Tweets that were alread
 - 3<sup>st</sup> submission (Logistic regression model): 0.811
 - 4<sup>st</sup> submission (basic model): 0.57
 
-![Graphic AIcrowd](https://raw.githubusercontent.com/mbayle98/DMML2020-Alpina/main/Documents/AICROWD.png)
+![Graphic AIcrowd](Documents/AICROWD.PNG)
 
 ### 📹 Video
 
