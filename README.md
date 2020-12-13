@@ -1,6 +1,7 @@
-# Group project: Real or Not? NLP with Disaster Tweets
-## Data Mining & Machine Learning 2020 - University of Lausanne
-## Group Alpina [AIcrowd]
+## Group project: Real or Not? NLP with Disaster Tweets
+
+![Banner](https://raw.githubusercontent.com/mbayle98/DMML2020-Alpina/main/Documents/Banner_project_alpina.png)
+
 
 ### 🕵️ Project description
 
