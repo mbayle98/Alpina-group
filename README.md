@@ -45,6 +45,8 @@ To train the model, we have access to a dataset of 6,471 Tweets that were alread
 
 #### Week 3
 
+📊 **EDA** + ⚙️ **Optimization**
+
 - EDA completed
 - Cleaning the features in progress
 - Testing different classifers
