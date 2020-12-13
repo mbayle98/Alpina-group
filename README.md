@@ -37,11 +37,6 @@ To train the model, we have access to a dataset of 6,471 Tweets that were alread
 
 #### Week 2
 
-💻 **Github**
-
-- Sych repo 
-- README updated
-
 📊 **EDA**
 
 - Plot the Top 50 keywords (entire training set, distinction between fake/real news Tweets)
