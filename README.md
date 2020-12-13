@@ -62,10 +62,13 @@ To train the model, we have access to a dataset of 6,471 Tweets that were alread
 ### 🥇 Results
 
 10 subsmissions on AIcrowd:
-- 1<sup>st</sup> submission (Logistic regression optimized numbers removal model): 0.818
-- 2<sup>st</sup> submission (Logistic regression optimized model): 0.816
-- 3<sup>st</sup> submission (Logistic regression model): 0.811
-- 4<sup>st</sup> submission (basic model): 0.57
+- 1<sup>st</sup> submission (basic model): 0.57
+- 2<sup>nd</sup> submission (Logistic regression model): 0.811
+- 3<sup>rd</sup> submission (Logistic regression optimized model): 0.816
+- 4<sup>th</sup> submission (Logistic regression optimized numbers removal model): 0.818
+
+
+
 
 ![Graphic AIcrowd](Documents/AICROWD.PNG)
 
