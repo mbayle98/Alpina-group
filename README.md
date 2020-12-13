@@ -65,6 +65,10 @@ Note: ```GridSearch(cv = 5)``` used for all optimizations
 | X = tweet (hyperparameters optimization)                 | ```criterion = entropy```                                                                             | **0.793**  |
 | X = lexical categories (hyperparameters optimization)    | ```bootstrap = true, criterion = gini, 11, n_estimators = 10```                                       | 0.667      |
 
+
+![Chart of our accuracies](Documents/graphaccu.png)
+
+
 ### 🚀 Progress of the project
 
 #### Week 1
