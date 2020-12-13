@@ -27,9 +27,9 @@ However, this model is bad at detecting fakes news like most of the other models
 ![Leaderboard AIcrowd](Documents/Alpina_ranking.PNG)
 
 From the 10 subsmissions on AIcrowd, here is the top 3 in term of accuracy:
-- 1<sup>st</sup> submission (Logistic regression optimized numbers removal model): 0.818
-- 2<sup>nd</sup> submission (Logistic regression optimized model): 0.816
-- 3<sup>rd</sup> submission (Logistic regression model): 0.811
+- 1<sup>st</sup> submission (Logistic regression optimized numbers removal model): **0.818**
+- 2<sup>nd</sup> submission (Logistic regression optimized model): **0.816**
+- 3<sup>rd</sup> submission (Logistic regression model): **0.811**
 
 ![Graphic AIcrowd](Documents/AICROWD.PNG)
 
