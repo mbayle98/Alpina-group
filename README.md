@@ -46,9 +46,9 @@ To train the model, we have access to a dataset of 6,471 Tweets that were alread
 #### Week 3
 
 - EDA completed
-- WIP: cleaning the features
-- WIP: testing different classifers
-- TODO: cross validation
+- Cleaning the features in progress
+- Testing different classifers
+- Cross validation to be done
 
 #### Week 4
 
