@@ -52,6 +52,8 @@ To train the model, we have access to a dataset of 6,471 Tweets that were alread
 
 #### Week 4
 
+⚙️ **Optimization**
+
 - Different classifiers tested: Logistic regression, kNNeighbours, Decision Tree, Random Forest
 - Hyper-parameter optimization with GridSearch
 
