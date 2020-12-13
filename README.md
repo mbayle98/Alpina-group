@@ -13,7 +13,33 @@ To train the model, we have access to a dataset of 6,471 Tweets that were alread
 
 ### ⚙️ Models & Parameters
 
-TO BE ADDED 
+| **Classifiers**                               | **Parameters**                                                                                        | **Accuracy** (intern) |
+|-----------------------------------------------|-------------------------------------------------------------------------------------------------------|-----------------------|
+| **Logistic regression**                       |                                                                                                       |                       |
+| X = tweet (no hyper-parameter optimization)   | ```max_iter = 100000```                                                                               | 0.804                 |
+| X = tweet (hyper-parameter optimization)      | ```C = 3.6, ngram_range = (1,3), norm = 'l1'```                                                       | 0.823                 |
+| X = location                                  | ```C = 1```                                                                                           | 0.59                  |
+| X = lexical categories (all)                  | ```C = 1```                                                                                           | 1                     |
+| X = lexical categories (reduced)              | ```C = 2```                                                                                           | 0.676                 |
+| X = lexical categories (std)                  | ```C = 2```                                                                                           | 0.676                 |
+| X = lexical categories (std + PCA)            |                                                                                                       | 0.676                 |
+| X = keywords                                  | ```C = 1```                                                                                           | 0.59                  |
+| *Combined features*                           |                                                                                                       |                       |
+| X = lexical + location                        |                                                                                                       | 0.662                 |
+| X = lexical + keyword                         |                                                                                                       | 0.654                 |
+| X = location + keyword                        |                                                                                                       | 0.579                 |
+| X = all features                              |                                                                                                       | 0.654                 |
+| **KNN**                                       |                                                                                                       |                       |
+| X = tweet (no hyper-parameter optimization)   |                                                                                                       | 0.762                 |
+| X = tweet (hyper-parameter optimization)      | ```ngram_range = (1,3), norm = 'l2', p = 2, weights = 'distance', n_neighbors = 17, leaf_size = 1```  | 0.779                 | 
+| X = lexical categories (hyper-parameter optimization)   | ```p = 1, weights = 'distance', n_neighbors = 19, leaf_size = 1```                          | 0.728                 |
+| **Decision tree**                             |                                                                                                       |                       |
+| X = tweet (no hyper-parameter optimization)   | ```ngram_range = (1,3), norm = 'l2'```                                                                | 0.755                 |
+| X = tweet (hyper-parameter optimization)      | ```max_depth = 71, min_samples_split = 15```                                                          | 0.762                 |
+| **Random forest**                             |                                                                                                       |                       |
+| X = tweet (no hyper-parameter optimization)   | ```ngram_range = (1,3), norm = 'l2'```                                                                | 0.789                 |
+| X = tweet (hyper-parameter optimization)      | ```bootstrap = True, min_samples_split = 8, n_estimators = 90```                                      | 0.787                 |
+| X = lexical categories (hyper-parameter optimization)   | ```bootstrap = True, min_samples_split = 11, n_estimators = 114```                          | 0.684                 |
 
 ### 🚀 Progress of the project
 
