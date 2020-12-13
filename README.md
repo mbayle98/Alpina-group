@@ -13,33 +13,33 @@ To train the model, we have access to a dataset of 6,471 Tweets that were alread
 
 ### ⚙️ Models & Parameters
 
-| **Model** | **Parameters**                        | **Accuracy** |
-|------------------|----------------------------------------|-------------|
-| **Logistic regression:** |                  |   |  
-| *X = tweet (Non-optimized)*           | max iter = 100K      | 0,804  |
-| *X = tweet (Hyperparameters optimization)*           | c = 3.6,n gram range = (1,3), norm = l1      | **0,823**|
-| *X = location*           | c = 1                           | 0,59  |
-| *X = lexical categories (all)*           | c = 1  | 1  |
-| *X = lexical categories (reduced)*       | c = 2  | 0,676 |
-| *X = lexical categories (std)*           | c = 2  | 0,676 |
-| *X = lexical categories (std + PCA)*          |   |0,676  |
-| *X = keywords*           | c = 1     | 0.59 |
-| *combined features:*     |     |  |
-| *X = lexical + location*           |     | 0,662 |
-| *X = lexical + keyword*            |     | 0,654   |
-| *X = location + keyword*           |     | 0,579 |
-| *X = all features*                 |     | 0,654 |
-| **KNN:**          |                          |   |
-| *X = tweet (Non-optimized)*          | X = text           | 0,762 |
-| *X = tweet (Hyperparameters optimization)*          | n gram range (1,3), norm = l2, p =2, weight = distance, n neighboor = 17, leaf_size = 1  | **0,779**  |
-| *X = lexical categories (Hyperparameters optimization)*         | p=1, weight = distance, n neighboor = 19, leaf_size = 1  | 0,728  |
-| **Decision tree:**       |                 |   |
-| *X = tweet (Non-optimized)*          | n gram range (1,3), norm l2 | 0,755  |
-| *X = tweet (Hyperparameters optimization)*          | max_depth = 71, min_sample_split = 15 | **0,762** |
-| **Random forest:**           |                              |  |
-| *X = tweet (Non-optimized)*           | n gram range (1,3), norm l2    | 0,792  |
-| *X = tweet (Hyperparameters optimization)*           | criterion = entropy    | **0,793**  |
-| *X = lexical categories (Hyperparameters optimization)*           | bootstrap = true, criterion = gini, 11, n_estimator = 10 | 0,667 |
+| **Model**                                                | **Parameters**                                                                               |**Accuracy (intern)**|
+|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------|------------|
+| **Logistic regression**                                  |                                                                                                       |            | 
+| X = tweet (non-optimized)                                | ```max_iter = 100000```                                                                               | 0,804      |
+| X = tweet (hyperparameters optimization)                 | ```C = 3.6, ngram_range = (1,3), norm = 'l1'```                                                       | **0,823**  |
+| X = location                                             | ```C = 1```                                                                                           | 0,59       |
+| X = lexical categories (all)                             | ```C = 1```                                                                                           | 1          |
+| X = lexical categories (reduced)                         | ```C = 2```                                                                                           | 0,676      |
+| X = lexical categories (std)                             | ```C = 2```                                                                                           | 0,676      |
+| X = lexical categories (std + PCA)                       |                                                                                                       | 0,676      |
+| X = keywords                                             | ```C = 1```                                                                                           | 0.59       |
+| Combined features                                        |                                                                                                       |            |
+| X = lexical + location                                   |                                                                                                       | 0,662      |
+| X = lexical + keyword                                    |                                                                                                       | 0,654      |
+| X = location + keyword                                   |                                                                                                       | 0,579      |
+| X = all features                                         |                                                                                                       | 0,654      |
+| **KNN**                                                  |                                                                                                       |            |
+| X = tweet (non-optimized)                                |                                                                                                       | 0,762      |
+| X = tweet (hyperparameters optimization)                 | ```ngram_range = (1,3), norm = 'l2', p = 2, weights = 'distance', n_neighbors = 19, leaf_size = 1```  | **0,779**  |
+| X = lexical categories (hyperparameters optimization)    | ```p = 1, weights = 'distance', n_neighbors = 19, leaf_size = 1```                                    | 0,728      |
+| **Decision tree**                                        |                                                                                                       |            |
+| X = tweet (non-optimized)                                | ```ngram_range = (1,3), norm = 'l2'```                                                                | 0,755      |
+| X = tweet (hyperparameters optimization)                 | ```max_depth = 71, min_samples_split = 15```                                                          | **0,762**  |
+| **Random forest**                                        |                                                                                                       |            |
+| X = tweet (non-optimized)                                | ```ngram_range = (1,3), norm = 'l2'```                                                                | 0,792      |
+| X = tweet (hyperparameters optimization)                 | ```criterion = entropy```                                                                             | **0,793**  |
+| X = lexical categories (hyperparameters optimization)    | ```bootstrap = true, criterion = gini, 11, n_estimators = 10```                                       | 0,667      |
 
 ### 🚀 Progress of the project
 
