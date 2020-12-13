@@ -18,7 +18,7 @@ To train the model, we have access to a dataset of 6,471 Tweets that were alread
 - **Internal accuracy**: 0.823
 - **AIcrowd accuracy**: 0.818
 
-By analysing the confusion matrix, it turned out that the model was very good at detecting the real news and the optimisation has certainly impacted this prediction of the real news even more.
+By analysing the confusion matrix, it turned out that the model was very good at detecting the real news and the optimisation has certainly helped to better predict fake news but there is still room for improvement.
 
 However, this model is bad at detecting fakes news like most of the other models tested. This means that there are things inherent and unique to fakes news that were not captured by these models. One solution would be to use additional features (feature engineering: lexical categories) that would allow to capture the characteristics of the fakes news.
 
