@@ -66,7 +66,7 @@ Note: ```GridSearch(cv = 5)``` used for all optimizations
 | X = lexical categories (hyperparameters optimization)    | ```bootstrap = true, criterion = gini, 11, n_estimators = 10```                                       | 0.667      |
 
 
-![Chart of our accuracies](Documents/graphaccu.png)
+![Chart of our accuracies](Documents/accuracies.png)
 
 
 ### 🚀 Progress of the project
