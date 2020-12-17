@@ -119,4 +119,4 @@ Note: ```GridSearch(cv = 5)``` used for all optimizations
 
 ### 📹 Video
 
-To be added later 😁
+The video summarized our project on fake news detection: https://youtu.be/fsoCE2vCAEM
